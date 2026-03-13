@@ -1,0 +1,57 @@
+{
+  "best_model": "GradientBoosting",
+  "selection_metric": "roc_auc",
+  "best_model_metrics": {
+    "roc_auc": 0.9997391792319328,
+    "accuracy": 0.9956538917423943,
+    "precision": 0.9891304347826086,
+    "recall": 0.9891304347826086,
+    "f1": 0.9891304347826086,
+    "true_negative": 4039,
+    "false_positive": 11,
+    "false_negative": 11,
+    "true_positive": 1001,
+    "model_name": "GradientBoosting"
+  },
+  "all_models": [
+    {
+      "roc_auc": 0.9997391792319328,
+      "accuracy": 0.9956538917423943,
+      "precision": 0.9891304347826086,
+      "recall": 0.9891304347826086,
+      "f1": 0.9891304347826086,
+      "true_negative": 4039,
+      "false_positive": 11,
+      "false_negative": 11,
+      "true_positive": 1001,
+      "model_name": "GradientBoosting"
+    },
+    {
+      "roc_auc": 0.9995256916996047,
+      "accuracy": 0.9924930857368629,
+      "precision": 0.9728155339805825,
+      "recall": 0.9901185770750988,
+      "f1": 0.9813907933398629,
+      "true_negative": 4022,
+      "false_positive": 28,
+      "false_negative": 10,
+      "true_positive": 1002,
+      "model_name": "RandomForest"
+    },
+    {
+      "roc_auc": 0.9981530278631728,
+      "accuracy": 0.9768866060845516,
+      "precision": 0.9035166816952209,
+      "recall": 0.9901185770750988,
+      "f1": 0.9448373408769448,
+      "true_negative": 3943,
+      "false_positive": 107,
+      "false_negative": 10,
+      "true_positive": 1002,
+      "model_name": "LogisticRegression"
+    }
+  ],
+  "train_rows": 15186,
+  "test_rows": 5062,
+  "premium_customer_rate": 0.20001975503753458
+}
